@@ -9,12 +9,12 @@ module Jpmobile::Mobile
 
     # Jpmobile::Rack::Filter を適用する
     def apply_filter?
-      true
+      false
     end
 
     # Jpmobile::Rack::ParamsFilter を適用する
     def apply_params_filter?
-      true
+      false
     end
 
     # 文字コード変換
